@@ -1,0 +1,1 @@
+function init(){var i=$(window).height()-50;$("#main").height(i),$("#sidebar").height(i)}$(function(){init(),$(window).resize(function(){var i=$(window).height()-50;$("#main").height(i),$("#sidebar").height(i)})});
