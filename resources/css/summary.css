@@ -1,0 +1,74 @@
+@font-face {
+	font-family: Lorena_medium;
+	src: url('../fonts/Lorena medium.ttf');
+}
+
+body {
+	padding-top: 50px;
+	background-image: url('../img/partybackground.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+h2 {
+	font-family: Lorena_medium;
+	font-size: 60px;
+	position: relative;
+	margin-left: 10%;
+	margin-top: 0px;
+	color: white;
+}
+
+img {
+	margin-left: 15px;	
+}
+
+.name {
+	padding-left: 20px;
+}
+
+.navbar {
+	background-color: black;
+	margin-bottom: 0px;
+}
+
+#main_content {
+	height: 600px;
+	overflow-y: auto;
+	-ms-overflow-style: none;
+}
+
+#main_content::-webkit-scrollbar {
+	width: 0 !important;
+}
+
+.name_box {
+	background-color: white;
+    cursor: pointer;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}/Volumes/untitled%202/Users/fieldfirst/Desktop/Web%20Tech/Rewards%20Randomizer/resources/js/summary.js
+
+.name_box:hover {
+	/* margin = inital margin - ((intial margin - width (or height))/2) */
+	box-shadow: 0 0 3em rgb(66, 66, 66);
+}
+
+.loader {
+	position: fixed;
+	left: auto;
+	right: auto;
+	top: auto;
+	bottom: auto;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../img/loading.gif');
+	background-size: 600px 450px;
+	background-repeat: no-repeat;
+	background-color: rgb(21, 25, 31);
+	background-position-y: 50%;
+	background-position-x: 50%;
+}
